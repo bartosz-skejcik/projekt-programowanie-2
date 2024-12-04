@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|c:\\users\\j5on\\source\\repos\\projekt2_paczesny_72541\\bpanalizatorlaboratoryjny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|solutionrelative:bpanalizatorlaboratoryjny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|c:\\users\\j5on\\source\\repos\\projekt2_paczesny_72541\\kokpitprojektunr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|solutionrelative:kokpitprojektunr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|c:\\users\\j5on\\source\\repos\\projekt2_paczesny_72541\\bpanalizatorlaboratoryjny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|solutionrelative:bpanalizatorlaboratoryjny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|c:\\users\\j5on\\source\\repos\\projekt2_paczesny_72541\\kokpitprojektunr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3503CDF6-2055-4613-B7D6-366A42AF14FE}|Projekt2_Paczesny_72541.csproj|solutionrelative:kokpitprojektunr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bpAnalizatorLaboratoryjny.cs",
+              "DocumentMoniker": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\bpAnalizatorLaboratoryjny.cs",
+              "RelativeDocumentMoniker": "bpAnalizatorLaboratoryjny.cs",
+              "ToolTip": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\bpAnalizatorLaboratoryjny.cs",
+              "RelativeToolTip": "bpAnalizatorLaboratoryjny.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:35:17.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KokpitProjektuNr2.cs",
+              "DocumentMoniker": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\KokpitProjektuNr2.cs",
+              "RelativeDocumentMoniker": "KokpitProjektuNr2.cs",
+              "ToolTip": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\KokpitProjektuNr2.cs",
+              "RelativeToolTip": "KokpitProjektuNr2.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:18:42.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bpAnalizatorLaboratoryjny.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\bpAnalizatorLaboratoryjny.cs",
+              "RelativeDocumentMoniker": "bpAnalizatorLaboratoryjny.cs",
+              "ToolTip": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\bpAnalizatorLaboratoryjny.cs [Design]",
+              "RelativeToolTip": "bpAnalizatorLaboratoryjny.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:31:08.565Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KokpitProjektuNr2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\KokpitProjektuNr2.cs",
+              "RelativeDocumentMoniker": "KokpitProjektuNr2.cs",
+              "ToolTip": "C:\\Users\\j5on\\source\\repos\\Projekt2_Paczesny_72541\\KokpitProjektuNr2.cs [Design]",
+              "RelativeToolTip": "KokpitProjektuNr2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:40:31.254Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

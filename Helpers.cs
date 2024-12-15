@@ -1,5 +1,7 @@
 using System;
+using System.Drawing;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Projekt2_Paczesny_72541
 {
@@ -145,6 +147,65 @@ namespace Projekt2_Paczesny_72541
                 bpDgvFunkcjiFx.Rows[bpI].Cells[2].Value = bpTWF[bpI, 2];
             }
             
+        }
+        
+        public void WpisanieDanychDoSeriiDanychKontrolkiChart(double[,] bpTWF, ref Chart bpWykresFx)
+        {
+            // wyzerowanie serii danych kontrolki Chart
+            bpWykresFx.Series.Clear();
+            bpWykresFx.BorderlineWidth = 2;
+            bpWykresFx.BorderlineColor = Color.Magenta;
+            bpWykresFx.BorderlineDashStyle = ChartDashStyle.DashDot;
+            
+            bpWykresFx.BackColor = Color.AntiqueWhite;
+            bpWykresFx.ForeColor = Color.Black;
+            
+            // clear "old" titles
+            bpWykresFx.Titles.Clear();
+            // set title
+            bpWykresFx.Titles.Add("Wyrkes rownania kwadratowego w przedziale [Xd, Xg]");
+            
+            bpWykresFx.Legends.Clear();
+            
+            // add a new legend with text Legenda
+            bpWykresFx.Legends.Add("Legenda: ");
+            bpWykresFx.Legends[0].Docking = Docking.Bottom;
+            // clear "old" chart areas
+            bpWykresFx.ChartAreas.Clear();
+            // add a new chart area
+            bpWykresFx.ChartAreas.Add("Obszar wykresu rownania kwadratowego");
+            // formatting newly added chart area
+            bpWykresFx.ChartAreas[0].Name = "Wykres funkcji F(x)";
+            
+            // describe x-axis and y-axis
+            bpWykresFx.ChartAreas[0].AxisX.Title = "x";
+            bpWykresFx.ChartAreas[0].AxisY.Title = "F(x)";
+            
+            // changing the description format of x-axis and y-axis values
+            bpWykresFx.ChartAreas[0].AxisX.LabelStyle.Format = "{0:F1}";
+            bpWykresFx.ChartAreas[0].AxisY.LabelStyle.Format = "{0:F2}";
+            
+            bpWykresFx.Series.Clear();
+            
+            // utworzenie nowej serii danych
+            Series bpSeria = new Series();
+            // dodanie nowej serii danych do kontrolki Chart
+            bpWykresFx.Series.Add(bpSeria);
+            // ustawienie nazwy serii danych
+            bpSeria.Name = "Wartosc funcji F(x)";
+            
+            // ustawienie typu serii danych na liniowa
+            bpSeria.ChartType = SeriesChartType.Line;
+            
+            // ustalenie koloru linii serii danych
+            bpSeria.Color = Color.Magenta;
+            
+            // przepisanie danych z tablicy do serii danych kontrolki Chart
+            for (int bpI = 0; bpI < bpTWF.GetLength(0); bpI++)
+            {
+                // dodanie nowego punktu do serii danych
+                bpSeria.Points.AddXY(bpTWF[bpI, 1], bpTWF[bpI, 2]);
+            }
         }
     }
 }

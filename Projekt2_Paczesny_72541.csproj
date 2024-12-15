@@ -61,6 +61,7 @@
     <Compile Include="KokpitProjektuNr2.Designer.cs">
       <DependentUpon>KokpitProjektuNr2.cs</DependentUpon>
     </Compile>
+    <Compile Include="LineStyleDialog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="bpAnalizatorLaboratoryjny.resx">

@@ -33,6 +33,9 @@ namespace Projekt2_Paczesny_72541
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -99,7 +102,6 @@ namespace Projekt2_Paczesny_72541
             this.zmianaStyluToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bpErrorProviderBtnWizualizacjaTabelaryczna = new System.Windows.Forms.ErrorProvider(this.components);
             this.bpErrorProviderBtnWizualizacjaGraficzna = new System.Windows.Forms.ErrorProvider(this.components);
-            this.vToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -371,18 +373,42 @@ namespace Projekt2_Paczesny_72541
             // 
             // bpDGV
             // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bpDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.bpDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bpDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { this.wartoscZmiennej, this.wartoscFunkcji });
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bpDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.bpDGV.Location = new System.Drawing.Point(188, 56);
             this.bpDGV.Name = "bpDGV";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bpDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.bpDGV.Size = new System.Drawing.Size(424, 382);
             this.bpDGV.TabIndex = 9;
             this.bpDGV.Visible = false;
             // 
             // wartoscZmiennej
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.wartoscZmiennej.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            this.wartoscZmiennej.DefaultCellStyle = dataGridViewCellStyle2;
             this.wartoscZmiennej.HeaderText = "Wartość zmiennej niezależnej X";
             this.wartoscZmiennej.Name = "wartoscZmiennej";
             this.wartoscZmiennej.Width = 200;
@@ -417,7 +443,7 @@ namespace Projekt2_Paczesny_72541
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.plikToolStripMenuItem1, this.toolStripMenuItem2, this.vToolStripMenuItem });
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.plikToolStripMenuItem1, this.toolStripMenuItem2 });
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -565,12 +591,6 @@ namespace Projekt2_Paczesny_72541
             // 
             this.bpErrorProviderBtnWizualizacjaGraficzna.ContainerControl = this;
             // 
-            // vToolStripMenuItem
-            // 
-            this.vToolStripMenuItem.Name = "vToolStripMenuItem";
-            this.vToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.vToolStripMenuItem.Text = "V";
-            // 
             // bpAnalizatorIndywidualny
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -607,8 +627,6 @@ namespace Projekt2_Paczesny_72541
             this.ResumeLayout(false);
             this.PerformLayout();
         }
-
-        private System.Windows.Forms.ToolStripMenuItem vToolStripMenuItem;
 
         private System.Windows.Forms.ErrorProvider bpErrorProviderBtnWizualizacjaGraficzna;
 

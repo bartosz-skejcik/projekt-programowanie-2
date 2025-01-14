@@ -17,11 +17,6 @@ namespace Projekt2_Paczesny_72541
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             // checking if form template has been created already "Analizator Laboratoryjny"
@@ -63,6 +58,31 @@ namespace Projekt2_Paczesny_72541
             {
                 e.Cancel = true;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // checking if form template has been created already "Analizator Indywidualny"
+            foreach (Form bpForm in Application.OpenForms)
+            {
+                // checking if the form is the "Analizator Indywidualny"
+                if (bpForm.Name == "bpAnalizatorIndywidualny")
+                {
+                    // hiding the general form and showing the "Analizator Indywidualny" form
+                    this.Hide();
+                    bpForm.Show();
+
+                    return;
+                }
+            }
+
+            // there was not "Analizator Indywidualny" form created yet
+            // creating new "Analizator Indywidualny" form
+            bpAnalizatorIndywidualny bpFormAnalizatorIndywidualny = new bpAnalizatorIndywidualny();
+
+            // hiding the general form and showing the "Analizator Indywidualny" form
+            this.Hide();
+            bpFormAnalizatorIndywidualny.Show();
         }
     }
 }

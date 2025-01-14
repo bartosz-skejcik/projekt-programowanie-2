@@ -207,5 +207,6 @@ namespace Projekt2_Paczesny_72541
                 bpSeria.Points.AddXY(bpTWF[bpI, 1], bpTWF[bpI, 2]);
             }
         }
+
     }
 }

@@ -37,13 +37,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(285, 91);
+            this.label1.Location = new System.Drawing.Point(52, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 25);
+            this.label1.Size = new System.Drawing.Size(684, 50);
             this.label1.TabIndex = 0;
-            this.label1.Text = "asdfsadfasdfasddfsadf";
+            this.label1.Text = "Analizator tabelaryczny i graficzny funkcji matematycznej\r\nw określonym przedzial" + "e zmian wartości zmiennej niezależnej X";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // bpAnalizatorLaboratoryjny
             // 
@@ -67,6 +66,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Analizator indywidualny";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // KokpitProjektuNr2
             // 
@@ -81,7 +81,6 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KokpitProjektuNr2_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

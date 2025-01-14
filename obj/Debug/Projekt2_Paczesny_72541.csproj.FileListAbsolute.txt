@@ -9,3 +9,15 @@ C:\Users\j5on\source\repos\Projekt2_Paczesny_72541\obj\Debug\Projekt2_Paczesny_7
 C:\Users\j5on\source\repos\Projekt2_Paczesny_72541\obj\Debug\Projekt2_Paczesny_72541.exe
 C:\Users\j5on\source\repos\Projekt2_Paczesny_72541\obj\Debug\Projekt2_Paczesny_72541.pdb
 C:\Users\j5on\source\repos\Projekt2_Paczesny_72541\obj\Debug\Projekt2_Paczesny_72541.bpAnalizatorLaboratoryjny.resources
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.exe
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.pdb
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\bin\Debug\Projekt2_Paczesny_72541.exe.config
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\bin\Debug\Projekt2_Paczesny_72541.exe
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\bin\Debug\Projekt2_Paczesny_72541.pdb
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.csproj.AssemblyReference.cache
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.bpAnalizatorLaboratoryjny.resources
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.KokpitProjektuNr2.resources
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.Properties.Resources.resources
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.csproj.GenerateResource.cache
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.csproj.CoreCompileInputs.cache
+C:\Users\Bartek Paczesny\.work\uni\comp-sci\projekt-programowanie-2\obj\Debug\Projekt2_Paczesny_72541.bpAnalizatorIndywidualny.resources

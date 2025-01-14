@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bpAnalizatorIndywidualny.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpAnalizatorIndywidualny.Designer.cs">
+      <DependentUpon>bpAnalizatorIndywidualny.cs</DependentUpon>
+    </Compile>
     <Compile Include="bpAnalizatorLaboratoryjny.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,7 @@
       <DependentUpon>bpAnalizatorLaboratoryjny.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers.cs" />
+    <Compile Include="HelpersCalcIndywidulany.cs" />
     <Compile Include="KokpitProjektuNr2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +71,9 @@
     <Compile Include="LineStyleDialog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bpAnalizatorIndywidualny.resx">
+      <DependentUpon>bpAnalizatorIndywidualny.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bpAnalizatorLaboratoryjny.resx">
       <DependentUpon>bpAnalizatorLaboratoryjny.cs</DependentUpon>
     </EmbeddedResource>
